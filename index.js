@@ -33,7 +33,7 @@ xhr.onload = function () {
         </div>
     </div>
 </div>`;
-news_html+=news_;
+news_html+=news_;   
 });
 news_accordion.innerHTML=news_html;
 }
